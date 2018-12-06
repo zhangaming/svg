@@ -90,6 +90,7 @@ btn.addEventListener('click',function(){
   changeFond();
   changeCouleur();
 })
+
 var slime1 = document.getElementById("slime1");
 slime1.addEventListener('click',function(){
 	slime1.className += ' active';
