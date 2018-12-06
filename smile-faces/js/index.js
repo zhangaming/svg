@@ -97,21 +97,21 @@ slime1.addEventListener('click',function(){
 		slime1.className = 'slime';
 	}, 1000);
   })
-  var slime2 = document.getElementById("slime1");
+  var slime2 = document.getElementById("slime2");
   slime2.addEventListener('click',function(){
 	  slime2.className += ' active';
 	  setTimeout(() => {
 		  slime2.className = 'slime';
 	  }, 1000);
 	})
-	var slime3 = document.getElementById("slime1");
+	var slime3 = document.getElementById("slime3");
 slime3.addEventListener('click',function(){
 	slime3.className += ' active';
 	setTimeout(() => {
 		slime3.className = 'slime';
 	}, 1000);
   })
-  var slime4 = document.getElementById("slime1");
+  var slime4 = document.getElementById("slime4");
 slime4.addEventListener('click',function(){
 	slime4.className += ' active';
 	setTimeout(() => {
