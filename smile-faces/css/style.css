@@ -48,12 +48,16 @@ body,html{
     transform-origin: 50% 100%;
     transform : scaleX(1) scaleY(1);}
 }
-
-.slime:hover{
-	-webkit-animation: changeForme 1s ease-in-out;
+@media screen and (min-width: 800px) {
+  .slime:hover{
+    -webkit-animation: changeForme 1s ease-in-out;
+    animation: changeForme 1s ease-in-out;
+  }
+}
+.slime.active{
+  -webkit-animation: changeForme 1s ease-in-out;
 	animation: changeForme 1s ease-in-out;
 }
-
 @-webkit-keyframes changeForme
 {
 0% {-webkit-transform-origin: 50% 100%;-webkit-transform : scaleX(1) scaleY(1);}
